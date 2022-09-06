@@ -1,11 +1,10 @@
-import type { NextPage } from 'next'
+import type { NextPage } from 'next';
+import Home from '@/components/screens/home/Home';
 
-const Home: NextPage = () => {
+const HomePage: NextPage = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      <button>Tailwind конфиг и SCSS</button>
-    </h1>
+    <Home />
   )
 }
 
-export default Home
+export default HomePage
